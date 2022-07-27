@@ -6,4 +6,5 @@ module.exports = {
       '<rootDir>/__mocks__/fileMock.js',
     '\\.(css|less|scss|sass)$': 'identity-obj-proxy',
   },
+  testEnvironment: 'jest-environment-jsdom',
 }
